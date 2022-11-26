@@ -6,14 +6,28 @@
 }
 .Items{
     display: flex;
+
 }
 .ListItem{
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-transform: uppercase;
-    height: 50px;
+    padding: var(--su6) var(--su12);
+    position: relative;
+    border: none;
+    font: unset;
+    background: none;
+    box-shadow: none;
+    cursor: pointer;
+    user-select: auto;
+    border-radius: 1000px;
+    margin: var(--su2);
+    white-space: nowrap;
+    color: var(--black-600);
+
     
+}
+.ListItem:hover{
+    background-color: rgba(125,125, 125, 0.5);
 }
 .ListItem a{
     text-decoration: none;
