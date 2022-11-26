@@ -1,0 +1,9 @@
+.AppWrapper{
+    margin: auto;
+    max-width: 1440px;
+}
+.class1{
+
+    position: relative;
+    height: 100vh;
+}
