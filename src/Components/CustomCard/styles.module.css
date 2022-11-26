@@ -1,0 +1,12 @@
+.questionWrapper {
+    padding: 1rem;
+}
+
+.card {
+    padding-top: 1rem;
+    border-top: #D7D9DC solid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 1rem;
+}

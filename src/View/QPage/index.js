@@ -3,9 +3,7 @@ import AddPost from "../../Components/AddPost";
 import styles from "./styles.module.css";
 
 const QPage = () => {
-  return (
-    
-  );
+  return <></>
 };
 
 export default QPage;
