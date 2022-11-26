@@ -1,0 +1,19 @@
+.votes {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.numAnswer {
+    background-color: #0D4C92;
+    width: 6rem;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.answer {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}

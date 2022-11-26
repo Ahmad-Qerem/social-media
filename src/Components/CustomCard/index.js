@@ -1,11 +1,21 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React from "react";
+import AnswersDiv from "./AnswersDiv";
+import { QuestionDiv } from "./QuestionDiv";
+import styles from "./styles.module.css";
 const CustomCard = () => {
   return (
-    <div>
-        CustomCard
-    </div>
-  )
-}
+    <>
+      <div className={styles.questionWrapper}>
+        <div className={styles.card}>
+          <AnswersDiv />
+          <QuestionDiv/>
+          
+        </div>
+       
+       
+      </div>
+    </>
+  );
+};
 
-export default CustomCard
+export default CustomCard;

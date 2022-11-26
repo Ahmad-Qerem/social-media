@@ -1,13 +1,15 @@
 import React from "react";
 import AddPost from "../../Components/AddPost";
-import styles from './styles.module.css'
+import CustomCard from "../../Components/CustomCard";
+import styles from "./styles.module.css";
 
 const HomePage = () => {
   return (
     <div className={styles.MainWrapper}>
-        <AddPost/>
+      <AddPost />
+      <CustomCard />
     </div>
-    );
+  );
 };
 
 export default HomePage;

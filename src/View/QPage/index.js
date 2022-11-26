@@ -6,6 +6,7 @@ const QPage = () => {
   return (
     <></>
   );
+
 };
 
 export default QPage;
