@@ -1,0 +1,25 @@
+.MainWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.Items{
+    display: flex;
+}
+.ListItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    height: 50px;
+    
+}
+.ListItem a{
+    text-decoration: none;
+}
+.UserState{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
