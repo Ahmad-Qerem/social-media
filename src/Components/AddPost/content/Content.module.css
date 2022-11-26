@@ -3,10 +3,16 @@
     flex-direction: column;
 }
 
-textarea,input{
+textarea{
     width: 60vw;
     margin: 10px 0;
-    height: 70px;
+    height: 120px;
+}
+
+input{
+    width: 60vw;
+    margin: 10px 0;
+    height: 30px;
 }
 
 .button{

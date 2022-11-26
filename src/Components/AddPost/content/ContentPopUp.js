@@ -12,7 +12,8 @@ function ContentPopUp({ handleClickClose }) {
   return (
     <div className={styles.content}>
       <label for="title">Title</label>
-      <textarea
+      <input
+        type="text"
         id="title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
@@ -23,7 +24,7 @@ function ContentPopUp({ handleClickClose }) {
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
-      <button className="button" onClick={handlePost}>
+      <button className={styles.button} onClick={handlePost}>
         Post Question
       </button>
       {/* <Bottun name={"Post Question"} onClick={handlePost} /> */}

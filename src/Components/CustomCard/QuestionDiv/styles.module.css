@@ -1,0 +1,14 @@
+.question {
+    font-size: 18px;
+    font-weight: normal;
+    color: #0D4C92;
+    text-decoration: none;
+}
+
+.question:hover {
+    color: #7289b5;
+}
+
+.questionDes {
+    max-width: 630px;
+}
