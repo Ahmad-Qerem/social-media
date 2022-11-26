@@ -9,7 +9,7 @@ textarea,input{
     height: 70px;
 }
 
-button{
+.button{
     width: 120px;
     height: 30px;
     margin: auto;

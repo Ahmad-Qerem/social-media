@@ -23,7 +23,9 @@ function ContentPopUp({ handleClickClose }) {
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
-      <button onClick={handlePost}>Post Question</button>
+      <button className="button" onClick={handlePost}>
+        Post Question
+      </button>
       {/* <Bottun name={"Post Question"} onClick={handlePost} /> */}
     </div>
   );

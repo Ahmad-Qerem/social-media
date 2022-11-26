@@ -3,9 +3,7 @@ import AddPost from "../../Components/AddPost";
 import styles from "./styles.module.css";
 
 const QPage = () => {
-  return (
-    
-  );
+  return <div className={styles.MainWrapper}></div>;
 };
 
 export default QPage;
