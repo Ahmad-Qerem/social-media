@@ -1,12 +1,11 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React from "react";
+import AddPost from "../../Components/AddPost";
+import styles from "./styles.module.css";
 
 const QPage = () => {
   return (
-    <div className={styles.MainWrapper}>
-        QPage
-    </div>
+    
   );
-}
+};
 
-export default QPage
+export default QPage;

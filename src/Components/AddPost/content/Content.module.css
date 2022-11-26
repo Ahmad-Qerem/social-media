@@ -1,0 +1,17 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea,input{
+    width: 60vw;
+    margin: 10px 0;
+    height: 70px;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
