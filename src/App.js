@@ -10,13 +10,13 @@ function App() {
       <Router>
         <div className={styles.AppWrapper}>
           <NavBar/>
-          <div className={styles.class1}>div</div>
-          <Routes>
-            
+          <div className={styles.Content}>
+          <Routes >
             <Route exact path="/" element={<AllPages.HomePage/>}></Route>
             <Route exact path="/About" element={<AllPages.About />}></Route>
             <Route exact path="/QPage" element={<AllPages.QPage />}></Route>
           </Routes>
+          </div>
           <Footer/>
         </div>
       </Router>
