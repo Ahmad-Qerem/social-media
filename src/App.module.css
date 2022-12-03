@@ -1,12 +1,14 @@
-.AppWrapper{
-    margin: auto;
-    max-width: 1440px;
+body {
+  margin: 0;
 }
-.class1{
-
-    position: relative;
-    height: 100vh;
+.AppWrapper {
+  margin: auto;
+  max-width: 1440px;
 }
-.Content{
-    height: 80vh;
+.class1 {
+  position: relative;
+  height: 100vh;
+}
+.Content {
+  height: 80vh;
 }

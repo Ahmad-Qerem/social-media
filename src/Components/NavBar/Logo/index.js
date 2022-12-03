@@ -2,9 +2,10 @@ import React from 'react'
 import styles from './styles.module.css'
 const Logo = () => {
   return (
-    <div className={styles.Logo}>
-          <img src='' alt='Logo'/>
-    </div>
+    <a className={styles.Logo}>
+          <img src='./images/URSOY.png' alt='Logo'/>
+          <span className={styles.Text}>Queue Over Flow</span>
+    </a>
   )
 }
 
