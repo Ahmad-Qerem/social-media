@@ -1,9 +1,17 @@
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Medium.ttf);
+}
+* {
+  font-family: Poppins;
+}
 body {
   margin: 0;
 }
 .AppWrapper {
+  position: relative;
+  height: 200vh;
   margin: auto;
-  max-width: 1440px;
 }
 .class1 {
   position: relative;
@@ -11,4 +19,7 @@ body {
 }
 .Content {
   height: 80vh;
+}
+.active {
+  background-color: #f3f3f3;
 }

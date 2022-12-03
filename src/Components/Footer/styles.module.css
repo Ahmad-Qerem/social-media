@@ -1,7 +1,8 @@
-.MainWrapper{
-    
-    max-width: 1440px;
-    height: 10vh;
-    width: 100%;
-    border: 1px solid black;
+.MainWrapper {
+  position: absolute;
+  bottom: 0;
+  height: 10vh;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0px 1px 10px #999;
 }

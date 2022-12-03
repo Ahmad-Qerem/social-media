@@ -1,39 +1,35 @@
-.MainWrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
+.MainWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
 }
-.Items{
-    display: flex;
-
+.Items {
+  display: flex;
+  flex: 1;
 }
-.ListItem{
-    display: flex;
-    align-items: center;
-    padding: var(--su6) var(--su12);
-    position: relative;
-    border: none;
-    font: unset;
-    background: none;
-    box-shadow: none;
-    cursor: pointer;
-    user-select: auto;
-    border-radius: 1000px;
-    margin: var(--su2);
-    white-space: nowrap;
-    color: var(--black-600);
-
-    
+.ListItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 1000px;
+  margin: 0 20px;
 }
-.ListItem:hover{
-    background-color: rgba(125,125, 125, 0.5);
+.ListItem:hover {
+  background-color: #f3f3f3;
 }
-.ListItem a{
-    text-decoration: none;
+.ListItem a {
+  text-decoration: none;
 }
-.UserState{
-    display: flex;
-    justify-content: space-around;
-    width: 300px;
+.UserState {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+.LinkTitle {
+  padding: 0 10px;
+  color: black;
+  text-align: center;
 }

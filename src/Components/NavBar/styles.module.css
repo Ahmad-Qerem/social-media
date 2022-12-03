@@ -1,10 +1,11 @@
-.MainWrapper{
-    position:sticky ;
-    max-width: 1440px;
-    height: 80px;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0px 1px 10px #999;
+.MainWrapper {
+  position: sticky;
+  height: 80px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 10px #999;
+  padding: 10px 150px 10px 150px;
+  background-color: white;
 }

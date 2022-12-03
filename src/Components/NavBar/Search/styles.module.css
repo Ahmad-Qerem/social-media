@@ -1,3 +1,16 @@
-.Search{
-    width: ;
+.MainWrapper {
+  flex: 1;
+}
+.SearchIcon {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .MainWrapper {
+    display: none;
+  }
+  .SearchIcon {
+    display: block;
+  }
 }
