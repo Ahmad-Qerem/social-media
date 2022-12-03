@@ -1,20 +1,10 @@
 
 .Logo{
-    
-    background-image: url('../../../../public/images/URSOY.png');
-    background:no-repeat ;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 20%;
+    max-width: 170px;
+    margin-left: 1%;    
 }
-.Logo:hover{
-    z-index: 1;
-    background-color: rgba(105, 96, 96, 0.5) ;
-    
-}
-.Text{
-    text-transform: uppercase;
-    color: crimson;
-    
+.Logo img{
+    width: 100%;
+
 }
